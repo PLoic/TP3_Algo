@@ -13,4 +13,8 @@ public class Variable extends ExpAbstraite {
     String toStringInfixe() {
          return nom;
     }
+
+    double evaluer(Env env) {
+        return env.obtenirValeur(nom);
+    }
 }

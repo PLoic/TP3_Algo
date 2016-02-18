@@ -6,7 +6,8 @@ public abstract class ExpAbstraite {
    
     abstract String toStringInfixe();
 
-    @Override
+    abstract double evaluer(Env env);
+
     public String toString() {
         return "Je suis une expression et me voila en notation\n" +
                 "infixée : " + toStringInfixe();

@@ -13,4 +13,8 @@ public class Constante extends ExpAbstraite {
     String toStringInfixe() {
         return Double.toString(valeur);
     }
+
+    double evaluer(Env env) {
+        return valeur;
+    }
 }

@@ -7,4 +7,8 @@ public class ExpBinaireMult extends ExpBinaire {
     public String toStringInfixe() {
         return " * " + opGauche.toStringInfixe() + " " + opDroite.toStringInfixe();
     }
+
+    public double evaluer(Env env) {
+        return opGauche.evaluer(env) * opDroite.evaluer(env);
+    }
 }

@@ -17,9 +17,8 @@ public class Env {
     }
 
     public String toString(){
-        String str = null;
-        for (Map.Entry<String, Double> entry : map.entrySet())
-        {
+        String str = "";
+        for (Map.Entry<String, Double> entry : map.entrySet()) {
             str += entry.getKey() + " = " + entry.getValue();
         }
 
