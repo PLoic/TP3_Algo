@@ -20,7 +20,7 @@ public class Env {
         String str = null;
         for (Map.Entry<String, Double> entry : map.entrySet())
         {
-            str += entry.getKey() + " = " + entry.getValue();
+            str += entry.getKey() + " = " + entry.getValue() + " , ";
         }
 
         return str;
