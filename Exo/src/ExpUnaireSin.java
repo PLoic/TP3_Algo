@@ -2,8 +2,12 @@
  * Created by loic on 18/02/2016.
  */
 public class ExpUnaireSin extends ExpUnaire {
-    @Override
+    
+    public ExpUnaireSin(ExpAbstraite operande) {
+        super(operande);
+    }
+
     String toStringInfixe() {
-        return null;
+        return " sin(" + operande.toStringInfixe() + ")";
     }
 }

@@ -2,8 +2,12 @@
  * Created by loic on 18/02/2016.
  */
 public class ExpUnaireCos extends ExpUnaire {
-    @Override
+
+    public ExpUnaireCos(ExpAbstraite operande) {
+        super(operande);
+    }
+
     String toStringInfixe() {
-        return null;
+        return " cos (" + operande.toStringInfixe() + ")";
     }
 }
