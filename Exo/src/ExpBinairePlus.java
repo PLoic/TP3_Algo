@@ -1,6 +1,6 @@
 public class ExpBinairePlus extends ExpBinaire {
     
-    public ExpBinaire(ExpAbstraite opGauche, ExpAbstraite opDroite) {
+    public ExpBinairePlus(ExpAbstraite opGauche, ExpAbstraite opDroite) {
         super(opGauche, opDroite);
     }    
   

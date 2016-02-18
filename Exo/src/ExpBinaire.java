@@ -1,4 +1,4 @@
-public class ExpBinaire extends ExpAbstraite {
+public abstract class ExpBinaire extends ExpAbstraite {
 
     public ExpBinaire(ExpAbstraite opGauche, ExpAbstraite opDroite) {
         this.opGauche = opGauche;

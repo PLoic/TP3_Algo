@@ -3,10 +3,14 @@
  */
 public class Constante extends ExpAbstraite {
 
+    public Constante(double valeur) {
+        this.valeur = valeur;
+    }
+
     double valeur;
 
     @Override
     String toStringInfixe() {
-        return null;
+        return Double.toString(valeur);
     }
 }

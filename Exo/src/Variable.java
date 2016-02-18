@@ -3,10 +3,14 @@
  */
 public class Variable extends ExpAbstraite {
 
+    public Variable(String nom) {
+        this.nom = nom;
+    }
+
     String nom;
 
     @Override
     String toStringInfixe() {
-        return null;
+         return nom;
     }
 }
